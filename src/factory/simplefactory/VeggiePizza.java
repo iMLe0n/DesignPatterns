@@ -1,6 +1,4 @@
-package factory.simpleFactory;
-
-import factory.simpleFactory.Pizza;
+package factory.simplefactory;
 
 /**
  * @author iMLe0n
