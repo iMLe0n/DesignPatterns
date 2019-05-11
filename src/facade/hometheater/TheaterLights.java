@@ -1,0 +1,33 @@
+package facade.hometheater;
+
+/**
+ * @author iMLe0n
+ * @version 1.0.0
+ * @date 19-5-11 下午10:30
+ */
+public class TheaterLights {
+    String description;
+
+    public TheaterLights(String description) {
+        this.description = description;
+    }
+
+    public void on() {
+        System.out.println(description + " on");
+    }
+
+    public void off() {
+        System.out.println(description + " off");
+    }
+
+    public void dim(int level) {
+        System.out.println(description + " dimming to " + level  + "%");
+    }
+
+    @Override
+    public String toString() {
+        return "TheaterLights{" +
+                "description='" + description + '\'' +
+                '}';
+    }
+}
